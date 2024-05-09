@@ -1,0 +1,129 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: monospace;
+    padding: 25px;
+    margin: 0px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+hr {
+    color: rgb(118, 172, 190);
+    border-style: dashed;
+    border-width: 2px;
+}
+mark {
+    background-color: rgb(255, 174, 0);
+}
+#container {
+    background-color: aliceblue;
+    padding: 10px;
+    float: center;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    position: relative;
+}
+#nav {
+    background-color: aliceblue;
+    padding: 10px;
+    width: 180px;
+    float: left;
+    text-align: center;
+    .nav-button {
+        background: lightblue;
+        border-color: rgb(118, 172, 190);
+        border-style: solid;
+        width: 150px;
+        font-size: medium;
+        padding: 10px;
+        margin: 10px;
+    }
+    .nav-button:hover {
+        opacity: 0.7;
+        box-shadow: 0 4px 16px 0 rgb(0, 61, 97);
+    }
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+#intro {
+    background-color: aliceblue;
+    padding: 10px;
+    width: 1060px;
+    float: right;
+}
+#intro h1 {
+    font-size: 275%;
+}
+#iframe-intro {
+    display: flex;
+    justify-content: space-between;
+}
+#main {
+    background-color: aliceblue;
+    padding: 10px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+#main h1 {
+    font-size: 200%;
+    text-align: center;
+}
+#iframe-main {
+    padding: 10px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* This adds a gap between the iframes so it does not stick together */
+}
+#iframe-main iframe {
+    border: 10px solid rgb(118, 172, 190);
+}
+#study-content {
+    background-color: aliceblue;
+    padding: 10px;
+}
+#socials {
+    background-color: aliceblue;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    .fa {
+        padding: 10px;
+        font-size: 25px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    .fa:hover {
+        opacity: 0.7;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .fa-youtube, .fa-linkedin, .fa-github, .fa-instagram {
+        background: lightblue;
+        color: white;
+        text-align: center;
+        border-color: rgb(118, 172, 190);
+        border-style: solid;
+    }
+}
+#footer {
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+#logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
